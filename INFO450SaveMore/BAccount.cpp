@@ -33,3 +33,8 @@ void BAccount::display()
 	cout << "Balance: " << balance << endl;
 	cout << "Interest rate: " << intRate << endl;
 }
+
+int BAccount::orderChecks()
+{
+	return -1;
+}

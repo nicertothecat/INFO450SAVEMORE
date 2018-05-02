@@ -15,6 +15,5 @@ public:
 	//We need to override the normal withdrawal function because a checking acount can incur a balance fee.
 	int withdrawal(double amount);
 	void checkLowBal();
-
 };
 

@@ -18,5 +18,7 @@ public:
 	int withdrawal(double amount);
 	void deposit(double amount);
 	void display();
+	virtual void assessInterest() {};
+	virtual int orderChecks();
 };
 
